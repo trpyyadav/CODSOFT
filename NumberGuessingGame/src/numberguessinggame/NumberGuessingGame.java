@@ -73,7 +73,7 @@ public class NumberGuessingGame extends JFrame implements ActionListener{
             new NumberGuessingGame();
         }else if(ae.getSource() == check){
             
-            //int compNo = 50;
+            
             int myNo = Integer.parseInt(tfenter.getText());
             
             int no = myNo;
